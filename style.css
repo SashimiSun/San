@@ -1,0 +1,5 @@
+
+ul li a {color:red;}
+ul{list-style-type: none}
+body {background: rgba(0, 128, 0, 0.2) /* Green background with 30% opacity */
+}

@@ -1,0 +1,81 @@
+<html><head>
+<style> 
+div {
+color:black;
+display:inline-block;
+transition:1s;
+background-position:center;
+border:1px solid red;
+ background-repeat:no-repeat;
+background-size:contain;
+font-size:60pt; 
+
+ 
+ 
+}
+
+</style>
+</head>
+<body>
+<div style="background-image: url('imges/gallery/image1.jpg'); margin-left: 51px; margin-top: 28px;">
+    <div onclick="func();"> &lt; </div>
+<div style="width:100px;" id="chislo"></div>
+    <div style=""> &gt; </div>
+
+    
+</div>
+
+
+<script>
+x=1;
+function func() {
+console.log(x);
+if(x<3) {x++;} else {x=1;}
+some_div=document.querySelector('#chislo');
+some_div.style.backgroundImage=
+'url("image'+x+'.jpg")';
+some_div.innerHTML=x;
+
+}
+x=0;
+while (x<10) {x++; console.log (x);}
+
+x=0;
+t=document.createElement('table');
+t.border=1;
+while(x<10) {
+tr=document.createElement('tr');
+	y=0;
+	while(y<10)
+	{ 
+      td=document.createElement('td');
+	  td.innerHTML=x+"."+y;
+	  tr.append(td);y++;}
+	  t.append(tr);
+x++;}
+
+//function new_table()
+	{
+	txt=document.querySelector("textarea");	
+	z=txt.value;
+	x=0;
+	t=document.createElement('table');
+	t.border=1;
+	while(x<z) {
+		tr=document.createElement('tr');
+		y=0;
+			while(y<z)
+			{ 
+			td=document.createElement('td');
+			td.innerHTML=x+"."+y;
+			tr.append(td);y++;
+			}
+		t.append(tr);
+		x++;
+			}
+document.body.append(t);
+	}//
+
+
+</body>
+</html>

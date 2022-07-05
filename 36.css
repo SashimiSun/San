@@ -1,0 +1,16 @@
+
+body { border: 5px solid red; }
+	.row { height: 200px;}
+	#shapka { height:80px; }
+	#center { height:300px; }
+	
+	
+	
+	#nalevo { background-image:url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+					background-repeat:no-repeat;
+					background-size: contain; 
+					background-position: center;}
+					
+				#img {object-fit: contain}
+					
+					

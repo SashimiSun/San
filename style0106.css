@@ -1,0 +1,9 @@
+a {border:5px solid black;}
+
+
+div{border:1px solid black; height:300px;
+width: 100%;background-image: url('https://mnogoblog.ru/wp-content/uploads/2018/11/fonjavascript1.jpg');
+background-size:cover;}
+
+div#right {background-image: url"https://mnogoblog.ru/wp-content/uploads/2018/11/fonjavascript1.jpg"; background-color:blue;}
+a body {width:1000px;}

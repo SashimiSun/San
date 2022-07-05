@@ -1,0 +1,86 @@
+/*@media screen and (max-width: 600px) {
+  #center-left,#center-right {
+display:none;
+  }
+}*/
+
+   body {
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614635412_35-p-tsvetnoi-fon-dlya-fotoshopa-44.jpg"); /* Путь к фоновому изображению */
+   
+   }
+ 
+div.circle
+    {
+        height:50px;
+        width:50px;
+        border-radius:100%;
+        background-size:contain;
+		background-image:url('https://c0.klipartz.com/pngpicture/449/807/gratis-png-baliza-futbol-%E2%80%8B%E2%80%8Barticulos-deportivos-futbol.png');
+        margin: 0 auto;
+    }
+   
+div#menu > ul { padding-left: 0; }  
+div#menu ul> li {display:inline-block; background: burlywood;border:1px solid black;}
+div#menu ul>li:hover ul {
+		padding-left:0;
+		display:block;position:absolute;}
+div#menu>ul>li>ul {display:none;}
+div#menu>ul>li>ul>li
+{list-style-type:none;}
+div#menu>ul>li>ul>li:hover
+{list-style-type:disc}
+
+
+div#center-right 
+{
+background-size: 100%;
+background-position:center left;
+background-image:url('https://api.живуспортом.рф/imagecache/full_jpeg/news_image/227/226927/61239d701a001.jpeg');
+background-repeat:no-repeat;
+}
+
+div#center-left 
+{
+background-repeat:no-repeat;
+background-size: 100%;
+background-position:center right;
+background-image:url('https://api.живуспортом.рф/imagecache/full_jpeg/news_image/227/226927/61239d701a001.jpeg');
+}
+div#center 
+{
+background-size: cover;
+background-image:url('фон.jpg');
+}
+
+div#logo { height: 175px; background-color:black;}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 15px 15px 15px 15px;
+}
+.eis1{
+	display: flex;
+	margin-top:100px;
+	justify-content:space-around;
+	 text-align: center;
+	
+}
+
+.eis2{display: flex;
+margin-top:100px;
+	justify-content:space-around;
+	 text-align: center;}
+
+.col-6 { height: 275px;
+  max-width: 500px;
+  margin: auto;
+  color: white;
+ text-align: center;
+}
