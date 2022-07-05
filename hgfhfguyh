@@ -1,0 +1,41 @@
+<html><head>
+<style>
+body>div {width:200px;
+ height:200px;
+ border:1px solid red;}
+div div {
+position:absolute; width:10px;height:10px;background:black;} 
+
+</style>
+</head>
+<body>
+<div>
+<div style="left: 143px; top: 103px;"></div>
+<div style="left: 88px; top: 57px;"></div>
+<div style="left: 78px; top: 121px;"></div>
+<div style="left: 98px; top: 131px;"></div>
+<div style="left: 147px; top: 146px;"></div>
+<div style="left: 129px; top: 101px;"></div>
+<div style="left: 140px; top: 71px;"></div>
+<div style="left: 140px; top: 71px;"></div>
+</div>
+
+<script>
+main_div=document.querySelector("div");
+main_div.onmouseup=function(e)
+{
+main_div.onmousemove=function (e) {
+
+div=document.createElement('div');
+
+div.style.left=e.clientX+"px";
+div.style.top=e.clientY+"px";
+main_div.append(div);
+}
+main_div.onmouseup=function (e) {
+main_div.onmousemove=0: }
+</script>
+
+
+</body>
+</html>
